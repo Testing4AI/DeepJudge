@@ -36,3 +36,4 @@ def MLP(shape):
     x = keras.layers.Activation('softmax', name='redictions')(x)
 
     return keras.models.Model(input_tensor, x)
+
