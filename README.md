@@ -22,8 +22,11 @@ $ python -m ipykernel install --name tf2-gpu
 - `watermarking-blackbox`: An TF2 implementation of [2].
 - `fingerprinting-blackbox`: An TF2 implementation of [3].
 
+
 **Reference:** 
 [1] Uchida, Yusuke, et al. "Embedding watermarks into deep neural networks." ICMR 2017.
+
 [2] Zhang, Jialong, et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
+
 [3] Cao, Xiaoyu, Jinyuan Jia, and Neil Zhenqiang Gong. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
