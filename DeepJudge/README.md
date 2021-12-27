@@ -2,7 +2,7 @@
 
 #### Step1: Select seeds for a trained model (the owner model)
 ```python
-$ python seed_selection.py --parameters
+$ python seed_selection.py --model owner_model_path --num 1000
 ```
 This will create a `seeds` directory and save the selected seeds. 
 
@@ -10,8 +10,8 @@ This will create a `seeds` directory and save the selected seeds.
 #### Step1: Generate test cases (black-box and white-box)
 
 ```python
-$ python blackbox_generation.py --parameters
-$ python whitebox_generation.py --parameters
+$ python blackbox_generation.py --model owner_model_path --seeds seeds_path --method pgd --ep 0.03 --iters 10 
+$ python whitebox_generation.py --model owner_model_path --seeds seeds_path --layer 3 
 ```
 This will create a `testcases` directory and save the generated testcases. 
 
