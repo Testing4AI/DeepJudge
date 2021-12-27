@@ -1,6 +1,6 @@
 ## To run
 
-#### Step1: Generate a fingerprint (a set of examples) for the model
+#### Step1: Generate the fingerprint (a set of adversarial examples) for a model
 
 ```python
 $ python generation.py 
