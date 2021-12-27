@@ -56,3 +56,4 @@ if __name__ == '__main__':
     loss, acc = watermarked_model.evaluate(test_images, test_labels, verbose=0)
     print('ACC: ', acc)
     print('BER: ', BER(watermarked_model, w, b, layer_name='watermark_layer'))
+
