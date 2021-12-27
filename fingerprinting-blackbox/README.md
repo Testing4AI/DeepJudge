@@ -1,6 +1,6 @@
 ## To run
 
-#### Step1: Generate a fingerprint (a set of examples) for the model (replace model path)
+#### Step1: Generate a fingerprint (a set of examples) for the model
 
 ```python
 $ python generation.py 
