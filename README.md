@@ -23,14 +23,14 @@ $ python -m ipykernel install --name tf2-gpu
 ## Files
 - `DeepJudge`: model similarity metrics and test case generation methods.
 - `train_models`: train clean models and suspect models.
-- `watermarking-whitebox`: An TF2 implementation of [1]. (based on [Repo](https://github.com/yu4u/dnn-watermark))
-- `watermarking-blackbox`: An TF2 implementation of [2].
-- `fingerprinting-blackbox`: An TF2 implementation of [3].
+- `watermarking-whitebox`: An TF2 implementation of [1]. 
+- `watermarking-blackbox`: An TF2 implementation of [2]. 
+- `fingerprinting-blackbox`: An TF2 implementation of [3]. 
 
 
 **Reference:** 
 
-[1] Uchida et al. "Embedding watermarks into deep neural networks." ICMR 2017.
+[1] Uchida et al. "Embedding watermarks into deep neural networks." ICMR 2017. ([Keras version](https://github.com/yu4u/dnn-watermark))
 
 [2] Zhang et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
 
