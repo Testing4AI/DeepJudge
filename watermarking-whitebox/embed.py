@@ -155,12 +155,3 @@ if __name__ == '__main__':
 #     ber = BER(watermarked_model, w, b, layer_name='watermark_layer')
 #     log('BER: ' + str(ber))
 
-
-
-
-
-
-
-
-
-
