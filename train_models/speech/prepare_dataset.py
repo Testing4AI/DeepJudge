@@ -16,8 +16,7 @@ def CustomPrepareGoogleSpeechCmd():
     _DownloadGoogleSpeechCmdV2()
     basePath = 'sd_GSCmdV2'
 
-    GSCmdV2Categs = {'left': 0, 'right': 1, 'up': 2, 'down': 3, 'yes': 4, 'no': 5, 'on': 6, 'off': 7, 'stop': 8,
-                     'go': 9}
+    GSCmdV2Categs = {'left': 0, 'right': 1, 'up': 2, 'down': 3, 'yes': 4, 'no': 5, 'on': 6, 'off': 7, 'stop': 8, 'go': 9}
 
     WAV2Numpy(basePath + '/test/')
     WAV2Numpy(basePath + '/train/')
