@@ -67,8 +67,7 @@ def _downloadFile(url, fName):
     wrote = 0
     print('Downloading {} into {}'.format(url, fName))
     with open(fName, 'wb') as f:
-        for data in tqdm(r.iter_content(block_size), total=math.ceil(total_size // block_size), unit='KB',
-                         unit_scale=True):
+        for data in tqdm(r.iter_content(block_size), total=math.ceil(total_size // block_size), unit='KB', unit_scale=True):
             wrote = wrote + len(data)
             f.write(data)
     if total_size != 0 and wrote != total_size:
@@ -126,12 +125,13 @@ if __name__ == '__main__':
                                     padding='same', sr=sr, n_mels=80,
                                     fmin=40.0, fmax=sr/2, power_melgram=1.0,
                                     return_decibel_melgram=True, trainable_fb=False,
-                                    trainable_kernel=False,
-                                    name='mel_stft'))
+                                    trainable_kernel=False, name='mel_stft'))
     melspecModel.add(Normalization2D(int_axis=0))
+    
     print("Converting audios to melspectrum")
     x_train = melspecModel.predict(load_audio(x_train, iLen).reshape((-1, 1, iLen)))
     x_test = melspecModel.predict(load_audio(x_test, iLen).reshape((-1, 1, iLen)))
+    
     np.save("sd_GSCmdV2/x_train.npy", x_train)
     np.save("sd_GSCmdV2/y_train.npy", y_train)
     np.save("sd_GSCmdV2/x_test.npy", x_test)
