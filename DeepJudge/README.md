@@ -13,7 +13,7 @@ This will create a `seeds` directory and save the selected seeds.
 $ python blackbox_generation.py --model owner_model_path --seeds seeds_path --method pgd --ep 0.03 --iters 10 
 $ python whitebox_generation.py --model owner_model_path --seeds seeds_path --layer 3 
 ```
-This will create a `testcases` directory and save the generated testcases. 
+This will create a `testcases` directory and save the generated test cases. 
 
 
 #### Step3: Metric evaluations (black-box/white-box)
