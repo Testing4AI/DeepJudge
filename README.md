@@ -1,6 +1,7 @@
 # DeepJudge: Testing for Copyright Protection 
 This repository contains code for [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (IEEE S&P'22)
 
+
 ## Prerequisite (Py3 & TF2) 
 The code are run successfully using **Python 3.6** and **Tensorflow 2.2.0.** 
 
@@ -22,20 +23,20 @@ $ python -m ipykernel install --name tf2-gpu
 ## Files
 - `DeepJudge`: model similarity metrics and test case generation methods.
 - `train_models`: train clean models and suspect models.
-- `watermarking-whitebox`: An TF2 implementation of [1]. (based on [repository](https://github.com/yu4u/dnn-watermark))
+- `watermarking-whitebox`: An TF2 implementation of [1]. (based on [Repo](https://github.com/yu4u/dnn-watermark))
 - `watermarking-blackbox`: An TF2 implementation of [2].
 - `fingerprinting-blackbox`: An TF2 implementation of [3].
 
 
 **Reference:** 
 
-[1] Uchida, Yusuke, et al. "Embedding watermarks into deep neural networks." ICMR 2017.
+[1] Uchida et al. "Embedding watermarks into deep neural networks." ICMR 2017.
 
-[2] Zhang, Jialong, et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
+[2] Zhang et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
 
-[3] Cao, Xiaoyu, Jinyuan Jia, and Neil Zhenqiang Gong. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
+[3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
 
-## To run
+<!-- ## To run
 
-See `README.md` in each directory
+See the `README.md` file in each directory -->
