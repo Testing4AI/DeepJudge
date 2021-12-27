@@ -15,6 +15,7 @@ $ pip install ipykernel
 $ python -m ipykernel install --name tf2-gpu
 ```
 
+
 ## Files
 - `DeepJudge`: model similarity metrics and test case generation methods.
 - `train_models`: train clean models and suspect models.
@@ -24,6 +25,7 @@ $ python -m ipykernel install --name tf2-gpu
 
 
 **Reference:** 
+
 [1] Uchida, Yusuke, et al. "Embedding watermarks into deep neural networks." ICMR 2017.
 
 [2] Zhang, Jialong, et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
