@@ -27,7 +27,6 @@ $ python -m ipykernel install --name tf2-gpu
 - `watermarking-blackbox`: An TF2 implementation of [2]. 
 - `fingerprinting-blackbox`: An TF2 implementation of [3]. 
 
-
 **Reference:** 
 
 [1] Uchida et al. "Embedding watermarks into deep neural networks." ICMR 2017. ([Keras version](https://github.com/yu4u/dnn-watermark))
