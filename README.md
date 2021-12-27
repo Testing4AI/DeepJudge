@@ -1,5 +1,5 @@
 # DeepJudge: Testing for Copyright Protection 
-This repository contains code for paper [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (IEEE S&P'22)
+This repository contains code for [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (IEEE S&P'22)
 
 ## Prerequisite (Py3 & TF2) 
 The code are run successfully using **Python 3.6** and **Tensorflow 2.2.0.** 
