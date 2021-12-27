@@ -37,6 +37,7 @@ $ python -m ipykernel install --name tf2-gpu
 [3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
 
-<!-- ## To run
 
-See the `README.md` file in each directory -->
+## To run
+
+See the `README.md` in each directory. 
