@@ -5,7 +5,7 @@ This repository contains code for [Copy, Right? A Testing Framework for Copyrigh
 ## Prerequisite (Py3 & TF2) 
 The code are run successfully using **Python 3.6** and **Tensorflow 2.2.0.** 
 
-We recommend using conda to install the tensorflow-gpu environment:
+We recommend using **conda** to install the tensorflow-gpu environment:
 
 ```shell
 $ conda create -n tf2-gpu tensorflow-gpu==2.2.0
