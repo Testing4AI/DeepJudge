@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description='DeepJudge black-box test case gene
 parser.add_argument('--model', required=True, type=str, help='victim model path')
 parser.add_argument('--seeds', required=True, type=str, help='selected seeds path')
 parser.add_argument('--method', default='pgd', type=str, help='adversarial attacks. choice: fgsm/pgd/cw')
-parser.add_argument('--ep', default=0.3, type=float, help='for fgsm/pgd attack (perturbation bound)')
+parser.add_argument('--ep', default=0.1, type=float, help='for fgsm/pgd attack (perturbation bound)')
 parser.add_argument('--iters', default=10, type=int, help='for pgd attack')
 parser.add_argument('--confidence', default=5, type=float, help='for cw attack')
 parser.add_argument('--cmin', default=0, type=float, help='clip lower bound')
