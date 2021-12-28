@@ -5,7 +5,7 @@
 ```python
 $ python embed.py 
 ```
-This will create a `logs` directory including training logs, the watermarked model and verification keys. 
+This will create a `logs` directory including a watermarked model and the verification keys. 
 
 
 #### Step2: Verify the watermark
