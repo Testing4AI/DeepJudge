@@ -5,7 +5,7 @@
 $ python seed_selection.py --model owner_model_path --num 1000 
 ```
 
-Example: owner_model_path = ../train_models/attacks/example/cifar10_resnet20.h5
+An example DNN: owner_model_path = ../train_models/attacks/example/cifar10_resnet20.h5
 
 This will create a `seeds` directory and save the selected seeds. 
 
