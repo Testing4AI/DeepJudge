@@ -3,7 +3,7 @@ This repository contains code for the paper [Copy, Right? A Testing Framework fo
 
 
 ## Prerequisite (Py3 & TF2) 
-The code are run successfully using **Python 3.6.10** and **Tensorflow 2.2.0**. 
+The code is run successfully using **Python 3.6.10** and **Tensorflow 2.2.0**. 
 
 We recommend using **conda** to install the tensorflow-gpu environment:
 
@@ -12,7 +12,7 @@ $ conda create -n tf2-gpu tensorflow-gpu==2.2.0
 $ conda activate tf2-gpu
 ```
 
-To run the code in jupyter notebook, you should add the kernel: 
+To run code in the jupyter notebook, you should add the kernel: 
 
 ```shell
 $ pip install ipykernel
