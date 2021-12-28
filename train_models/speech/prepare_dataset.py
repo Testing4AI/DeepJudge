@@ -9,7 +9,7 @@ import argparse
 from keras.models import Sequential
 from kapre.time_frequency import Melspectrogram
 from kapre.utils import Normalization2D
-# clone from https://github.com/cleverhans-lab/entangled-watermark/blob/master/data/prepare_speechcmd.py
+# based on https://github.com/cleverhans-lab/entangled-watermark/blob/master/data/prepare_speechcmd.py
 
 
 def CustomPrepareGoogleSpeechCmd():
