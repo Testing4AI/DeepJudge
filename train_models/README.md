@@ -12,5 +12,5 @@ This will create a `models` directory and save the trained model.
 
 #### 2. Train suspect models
 
-see `attacks/demo.ipynb`
+see the jupyter notebook `attacks/demo.ipynb`.  
 
