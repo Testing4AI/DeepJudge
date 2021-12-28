@@ -5,7 +5,7 @@
 ```python
 $ python generation.py 
 ```
-This will save an file `key_xy.npz` (fingerprint).
+This will save a file `key_xy.npz` (fingerprint).
 
 #### Step2: Verify the fingerprint
 
