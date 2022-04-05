@@ -42,7 +42,7 @@ class FGSM:
             loss = keras.losses.categorical_crossentropy(target, self.model(x_adv))
             grads = tape.gradient(loss, x_adv)
         delta = tf.sign(grads)
-        x_adv.assign_add(self.step * delta)
+        x_adv.assign_add(self.ep * delta)
         x_adv = tf.clip_by_value(x_adv, clip_value_min=self.clip_min, clip_value_max=self.clip_max)
         
         success_idx = np.where(np.argmax(self.model(x_adv), axis=1) != np.argmax(y, axis=1))[0] 
@@ -51,7 +51,7 @@ class FGSM:
 
 
 class PGD: 
-    def __init__(self, model, ep=0.3, epochs=10, isRand=True, clip_min=0, clip_max=1):
+    def __init__(self, model, ep=0.3, epochs=10, step=0.03, isRand=True, clip_min=0, clip_max=1):
         """
         args:
             model: victim model
@@ -64,8 +64,8 @@ class PGD:
         self.isRand = isRand
         self.model = model
         self.ep = ep
-        self.step = ep/epochs
         self.epochs = epochs
+        self.step = step
         self.clip_min = clip_min
         self.clip_max = clip_max
         
