@@ -23,7 +23,7 @@ $ python -m ipykernel install --name tf2-gpu
 ![deepjudge-overview](./deepjudge-overview.png)
 
 ## Files
-- `DeepJudge`: model similarity metrics and test case generation methods.
+- `DeepJudge`: Our DeepJudg testing framework.
 - `train_models`: train clean models and suspect models.
 - `watermarking-whitebox`: a TF2 implementation of [1]. ([Keras version](https://github.com/yu4u/dnn-watermark))
 - `watermarking-blackbox`: a TF2 implementation of [2]. 
