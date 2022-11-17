@@ -19,6 +19,8 @@ $ pip install ipykernel
 $ python -m ipykernel install --name tf2-gpu
 ```
 
+## Work Flow
+![deepjudge-overview](./deepjudge-overview.png)
 
 ## Files
 - `DeepJudge`: model similarity metrics and test case generation methods.
@@ -36,11 +38,9 @@ $ python -m ipykernel install --name tf2-gpu
 [3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
 
-
 ## To run
 
 See the `README.md` in each directory. 
-
 
 
 ## Publication 
