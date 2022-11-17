@@ -1,5 +1,5 @@
 # DeepJudge: Testing for DNN Copyright Protection 
-This repository contains code for the paper [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (S&P'22).
+This repository contains code for the paper [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (S&P'22). 
 
 
 ## Prerequisite (Py3 & TF2) 
@@ -12,7 +12,7 @@ $ conda create -n tf2-gpu tensorflow-gpu==2.2.0
 $ conda activate tf2-gpu
 ```
 
-To run code in the jupyter notebook, you should add the kernel: 
+To run code in the jupyter notebook, you should add the kernel manually: 
 
 ```shell
 $ pip install ipykernel
@@ -40,3 +40,26 @@ $ python -m ipykernel install --name tf2-gpu
 ## To run
 
 See the `README.md` in each directory. 
+
+
+
+## Publication 
+```
+@inproceedings{deepjudge2022,
+  author    = {Jialuo Chen and
+               Jingyi Wang and
+               Tinglan Peng and
+               Youcheng Sun and
+               Peng Cheng and
+               Shouling Ji and
+               Xingjun Ma and
+               Bo Li and
+               Dawn Song},
+  title     = {Copy, Right? {A} Testing Framework for Copyright Protection of Deep
+               Learning Models},
+  booktitle = {43rd {IEEE} Symposium on Security and Privacy, {SP} 2022, San Francisco,
+               CA, USA, May 22-26, 2022},
+  year      = {2022},
+}
+```
+
