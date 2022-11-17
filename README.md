@@ -55,9 +55,9 @@ See the `README.md` in each directory.
                Xingjun Ma and
                Bo Li and
                Dawn Song},
-  title     = {Copy, Right? {A} Testing Framework for Copyright Protection of Deep
+  title     = {Copy, Right? A Testing Framework for Copyright Protection of Deep
                Learning Models},
-  booktitle = {43rd {IEEE} Symposium on Security and Privacy, {SP} 2022, San Francisco,
+  booktitle = {43rd IEEE Symposium on Security and Privacy, S&P 2022, San Francisco,
                CA, USA, May 22-26, 2022},
   year      = {2022},
 }
