@@ -59,5 +59,16 @@ See the `README.md` in each directory.
   booktitle = {43rd IEEE Symposium on Security and Privacy, S&P 2022, San Francisco, CA, USA, May 22-26, 2022},
   year      = {2022},
 }
+
+@inproceedings{djdemo2023,
+  author    = {Jialuo Chen and
+               Youcheng Sun and
+               Jingyi Wang and
+               Peng Cheng and
+               Xingjun Ma},
+  title     = {DeepJudge: A Testing Framework for Copyright Protection of Deep Learning Models},
+  booktitle = {45th IEEE/ACM International Conference on Software Engineering: Companion Proceedings, ICSE 2023, Melbourne, Australia, May 14-20, 2023},
+  year      = {2023},
+}
 ```
 
