@@ -60,6 +60,7 @@ See the `README.md` in each directory.
   year      = {2022},
 }
 ```
+<!--
 ```
 @inproceedings{djdemo2023,
   author    = {Jialuo Chen and
@@ -72,4 +73,5 @@ See the `README.md` in each directory.
   year      = {2023},
 }
 ```
+-->
 
