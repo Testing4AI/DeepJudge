@@ -23,11 +23,10 @@ $ python -m ipykernel install --name tf2-gpu
 ![deepjudge-overview](./deepjudge-overview.png)
 
 ## Files
-- `DeepJudge`: Our DeepJudge testing framework.
-- `train_models`: train clean models and suspect models.
-- `watermarking-whitebox`: a TF2 implementation of [1]. ([Keras version](https://github.com/yu4u/dnn-watermark))
-- `watermarking-blackbox`: a TF2 implementation of [2]. 
-- `fingerprinting-blackbox`: a TF2 implementation of [3]. 
+- `DeepJudge`: DeepJudge testing framework.
+- `train_models`: Train clean models and suspect models. 
+- `baselines`: Our implementation of watermarking-based [1,2] and fingerprinting-based techniques [3]. 
+- `attacks`: Our implementation of model stealing attacks (fine-tuning, pruning, shuffling [4,5] and extraction [6,7,8]). 
 
 **Reference:** 
 
@@ -38,9 +37,10 @@ $ python -m ipykernel install --name tf2-gpu
 [3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
 
+
 ## To Run
 
-See the `README.md` in each directory. 
+See the `README.md` in each directory for details. 
 
 
 ## Publication 
