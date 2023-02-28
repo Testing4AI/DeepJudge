@@ -25,7 +25,7 @@ $ python -m ipykernel install --name tf2-gpu
 ## Files
 - `DeepJudge`: DeepJudge testing framework.
 - `train_models`: Train clean models and suspect models. 
-- `baselines`: Our implementation of watermarking-based [1,2] and fingerprinting-based techniques [3]. 
+- `baselines`: Our implementation of watermarking-based [1,2] and fingerprinting-based [3] techniques. 
 - `attacks`: Our implementation of model stealing attacks (fine-tuning, pruning, shuffling [4,5] and extraction [6,7,8]). 
 
 **Reference:** 
