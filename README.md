@@ -27,6 +27,11 @@ $ python -m ipykernel install --name tf2-gpu
 ## Work Flow
 ![deepjudge-overview](./deepjudge-overview.png)
 
+- **Multi-level testing metrics**: fully characterize a DNN model from different angles. 
+- **Efficient test case generation algorithms**: magnify the similarities measured by the testing metrics between models.
+- **Judging mechanism**: make a ‘yes’/‘no’ judgment on whether the suspect model is a stolen copy.
+
+
 ## Files
 - `DeepJudge`: DeepJudge testing framework.
 - `train_models`: Train clean models and suspect models. 
