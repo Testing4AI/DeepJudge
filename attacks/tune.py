@@ -173,4 +173,3 @@ def Prune(model, x, y, r=0.2, epochs=10, lr=None, batch_size=64, aug=True):
     return model
         
         
-        
