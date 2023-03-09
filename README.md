@@ -1,5 +1,10 @@
+<img align="right" height="160" src="./logo.png">
+
 # DeepJudge: Testing for DNN Copyright Protection 
+
 This repository contains code for the conference paper [Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models](https://arxiv.org/abs/2112.05588) (S&P'22) and the journal extension. 
+
+
 
 
 ## Prerequisite (Py3 & TF2) 
