@@ -64,15 +64,7 @@ See the `README.md` in each directory for details.
 ## Publication 
 ```
 @inproceedings{deepjudge2022,
-  author    = {Jialuo Chen and
-               Jingyi Wang and
-               Tinglan Peng and
-               Youcheng Sun and
-               Peng Cheng and
-               Shouling Ji and
-               Xingjun Ma and
-               Bo Li and
-               Dawn Song},
+  author    = {Jialuo Chen, Jingyi Wang, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song},
   title     = {Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models},
   booktitle = {43rd IEEE Symposium on Security and Privacy, S&P 2022, San Francisco, CA, USA, May 22-26, 2022},
   year      = {2022},
