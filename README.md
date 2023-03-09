@@ -1,4 +1,4 @@
-<img align="right" height="160" src="./logo.png">
+<img align="right" height="100" src="./logo.png">
 
 # DeepJudge: Testing for DNN Copyright Protection 
 
