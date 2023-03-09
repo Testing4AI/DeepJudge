@@ -14,3 +14,4 @@ This will create a `logs` directory including a watermarked model and the verifi
 $ python evaluate.py 
 ```
 This will calculate the BER (bit error rate) for the watermarked model. 
+
