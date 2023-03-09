@@ -39,23 +39,16 @@ $ python -m ipykernel install --name tf2-gpu
 - `attacks`: Our implementation of model stealing attacks (fine-tuning, pruning, shuffling [4,5] and extraction [6,7,8]). 
 
 **Reference:** 
-
+```
 [1] Uchida et al. "Embedding watermarks into deep neural networks." ICMR 2017. 
-
 [2] Zhang et al. "Protecting intellectual property of deep neural networks with watermarking." AisaCCS 2018.
-
 [3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
-
 [4] Lukas et al. "Sok: How robust is image classification deep neural network watermarking?" S&P 2022.
-
 [5] Yan et al. "And then there were none: Cracking white-box DNN watermarks via invariant neuron transforms." Arxiv 2022. 
-
 [6] Papernot et al. "Practical black-box attacks against machine learning." AsiaCCS 2017.
-
 [7] Orekondy et al. "Knockoff nets: Stealing functionality of black-box models." CVPR 2019.
-
 [8] Yuan et al. "Es attack: Model stealing against deep neural networks without data hurdles." TETCI 2022.
-
+```
 ## To Run
 
 See the `README.md` in each directory for details. 
