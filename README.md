@@ -46,9 +46,9 @@ $ python -m ipykernel install --name tf2-gpu
 
 [3] Cao et al. "IPGuard: Protecting intellectual property of deep neural networks via fingerprinting the classification boundary." AsiaCCS 2021.
 
-[4] Yan et al. "And then there were none: Cracking white-box DNN watermarks via invariant neuron transforms." Arxiv 2022. 
+[4] Lukas et al. "Sok: How robust is image classification deep neural network watermarking?" S&P 2022.
 
-[5] Lukas et al. "Sok: How robust is image classification deep neural network watermarking?" S&P 2022.
+[5] Yan et al. "And then there were none: Cracking white-box DNN watermarks via invariant neuron transforms." Arxiv 2022. 
 
 [6] Papernot et al. "Practical black-box attacks against machine learning." AsiaCCS 2017.
 
