@@ -142,4 +142,29 @@ def NAD(model1, model2, tests, theta=0.5):
 
 
 
+def NNOD(model1, model2, tests):
+    """ Normalized Neuron Output Distance
+    args:
+        model1 & model2: victim model and suspect model
+        tests: white-box test cases  
+
+    return:
+        NNOD value 
+    """
+    nnods = []
+    for loc in tests.keys():
+        layer_index, idx = loc[0], loc[1]
+        submodel1 = Model(inputs = model1.input, outputs = model1.layers[layer_index].output)
+        submodel2 = Model(inputs = model2.input, outputs = model2.layers[layer_index].output)
+        outputs1 = submodel1(tests[loc])
+        outputs1 = K.mean(K.reshape(outputs1, (outputs1.shape[0], -1, outputs1.shape[-1])), axis = 1)
+        outputs2 = submodel2(tests[loc])
+        outputs2 = K.mean(K.reshape(outputs2, (outputs2.shape[0], -1, outputs2.shape[-1])), axis = 1)
+        maxs1 = np.max(outputs1, axis=0)
+        maxs2 = np.max(outputs2, axis=0)
+        outputs1 = outputs1/maxs1
+        outputs2 = outputs2/maxs2
+        nnods.append(np.abs(outputs1[:,idx] - outputs2[:,idx]))
+    return round(np.average(np.array(nnods)), DIGISTS)
+
 
