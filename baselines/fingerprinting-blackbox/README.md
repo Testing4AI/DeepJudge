@@ -13,3 +13,4 @@ This will save a file `key_xy.npz` (fingerprint).
 $ python evaluate.py 
 ```
 This will calculate the MR (matching rate) on the pre-generated fingerprint. 
+
